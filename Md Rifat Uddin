@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Md Rifat Uddin - Personal Website</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(120deg, #dbeafe, #fef3c7);
+      color: #111;
+    }
+    header {
+      background-color: #1e3a8a;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header img {
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border: 4px solid #fff;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #1e3a8a;
+      border-bottom: 2px solid #1e3a8a;
+      padding-bottom: 0.5rem;
+    }
+    .skills span {
+      display: inline-block;
+      background: #2563eb;
+      color: white;
+      padding: 0.5rem 1rem;
+      margin: 0.3rem;
+      border-radius: 20px;
+      font-size: 0.9rem;
+    }
+    .contact a {
+      display: block;
+      margin: 0.5rem 0;
+      color: #1e40af;
+      text-decoration: none;
+    }
+    footer {
+      background-color: #1e3a8a;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="profile.jpg" alt="Md Rifat Uddin">
+    <h1>Md Rifat Uddin</h1>
+    <p>ইলেকট্রিক্যাল ইঞ্জিনিয়ারিং ছাত্র | ভবিষ্যৎ ওয়েব ডেভেলপার | প্রযুক্তিপ্রেমী</p>
+  </header>
+
+  <section>
+    <h2>আমার সম্পর্কে</h2>
+    <p>আমি Md Rifat Uddin, একজন ইলেকট্রিক্যাল ইঞ্জিনিয়ারিং ছাত্র। আমি ফ্রিল্যান্সিং ও ওয়েব ডেভেলপমেন্ট শিখছি এবং প্রযুক্তিতে গভীর আগ্রহী। পাশাপাশি আমি বিজনেসেও যুক্ত আছি।</p>
+
+    <h2>দক্ষতা</h2>
+    <div class="skills">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>Graphic Design</span>
+      <span>Electrical Projects</span>
+      <span>Business Strategy</span>
+    </div>
+
+    <h2>যোগাযোগ</h2>
+    <div class="contact">
+      <a href="mailto:mdrifatuddin710@gmail.com">📧 mdrifatuddin710@gmail.com</a>
+      <a href="https://www.instagram.com/md_rifat_uddin__/">📷 Instagram</a>
+      <a href="https://www.facebook.com/md.rifat.uddin.16354">📘 Facebook</a>
+      <a href="https://youtube.com/@mdrifatuddin710">▶️ YouTube</a>
+      <a href="https://www.tiktok.com/@md.rifatuddin123">🎵 TikTok</a>
+      <a href="https://wa.me/8801994408639">💬 WhatsApp: 01994408639</a>
+      <p>📞 মোবাইল: 01994408639</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Md Rifat Uddin | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
